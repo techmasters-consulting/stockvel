@@ -1,0 +1,26 @@
+judiciary.PostponeDeadline:
+  path: '/daniel-date-forward/date-forward'
+  defaults:
+    _form: '\Drupal\daniel_date_forward\Form\DateForwardForm'
+    _title: 'New Date Forwarding Form'
+  requirements:
+    _access: 'TRUE'
+#  custom-modal-page:
+#    path: '/modal-form-link'
+#    defaults:
+#      _controller: '\Drupal\judiciary_postpone_deadline\Controller\PropertyController::modalLink'
+#      _title: 'Open Modal Page'
+#    requirements:
+#      _permission: 'access content'
+judiciary.ViewDeadlineHistory:
+  path: '/daniel-date-forward/view-date-forward-history'
+  defaults:
+    _controller: '\Drupal\daniel_date_forward\Controller\DateForwardController::viewDateForwardHistory'
+    _title: 'Date Forwarding'
+
+  requirements:
+    _user_is_logged_in: 'TRUE'
+    _permission: 'access content'
+    _access: 'TRUE'
+
+

@@ -1,0 +1,33 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+//TODO: CHECK REQUIREMENTS FOR MODULE BEFORE INSTALL
+/**
+ * Implements hook_menu().
+ */
+//function judiciary_postpone_deadline_menu() {
+//  $items = array();
+//  $items['postpone/deadline'] = array(
+//    'title' => 'Post Pone Deadline',
+//    'description' => '',
+//    'page callback' => 'judiciary_postpone_deadline_custom_page_display', //custom function to display the page.
+//    'access arguments' => array('ACCESS CONTENT'),  // You can give permission if you want.
+//    'type' => MENU_NORMAL_ITEM,
+//  );
+//  return $items;
+//}
+
+function daniel_date_forwarding_help($route_name, RouteMatchInterface $route_match)
+{
+  switch ($route_name) {
+    // Main module help for the judiciary_payment_schedule module.
+    case 'help.page.daniel_date_forwarding':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module Postponing Deadliness') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+?>

@@ -1,0 +1,6 @@
+name: 'Daniel Date Forwarding'
+type: module
+description: 'Custom module for Date Forwarding Arrivals'
+core_version_requirement: ^9 || ^10
+package: 'daniel'
+

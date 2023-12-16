@@ -1,0 +1,5 @@
+name: 'Daniel '
+type: module
+description: 'Custom Hospitality Module'
+core_version_requirement: ^9 || ^10
+package: 'daniel'

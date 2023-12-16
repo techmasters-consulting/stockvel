@@ -1,0 +1,13 @@
+name: Real Estate RETS
+type: module
+description: Integration with RETS.
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:real_estate
+  - drupal:real_estate:real_estate_property
+package: Drupal Real Estate
+
+# Information added by Drupal.org packaging script on 2020-12-31
+version: '8.x-3.x-dev'
+project: 'real_estate'
+datestamp: 1609375813

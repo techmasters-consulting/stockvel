@@ -1,0 +1,22 @@
+add property entities:
+  title: 'Create new Property entities'
+
+administer property entities:
+  title: 'Administer Property entities'
+  description: 'Allow to access the administration form to configure Property entities.'
+  restrict access: true
+
+delete property entities:
+  title: 'Delete Property entities'
+
+edit property entities:
+  title: 'Edit Property entities'
+
+view published property entities:
+  title: 'View published Property entities'
+
+view unpublished property entities:
+  title: 'View unpublished Property entities'
+
+permission_callbacks:
+  - \Drupal\real_estate_property\PropertyPermissions::generatePermissions

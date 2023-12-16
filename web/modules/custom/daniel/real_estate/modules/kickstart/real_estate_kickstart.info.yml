@@ -1,0 +1,14 @@
+name: Real Estate Kickstart
+type: module
+description: Kickstart demo content.
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:real_estate
+  - real_estate:real_estate_property
+  - real_estate:real_estate_gmap
+package: Drupal Real Estate
+
+# Information added by Drupal.org packaging script on 2020-12-31
+version: '8.x-3.x-dev'
+project: 'real_estate'
+datestamp: 1609375813
